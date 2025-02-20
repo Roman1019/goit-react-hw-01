@@ -1,6 +1,6 @@
 export default function Profile({ username, tag, location, image, stats }) {
   return (
-    <div>
+    <div className="container">
       <div>
         <img src={image} alt="User avatar" />
         <p>{username}</p> <p>@{tag}</p> <p>{location}</p>
