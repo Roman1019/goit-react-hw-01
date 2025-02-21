@@ -1,0 +1,28 @@
+.imgFriends {
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+.nameFriends {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: larger;
+}
+.statusFriends {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

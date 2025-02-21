@@ -1,0 +1,17 @@
+.ulList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 32px;
+  font-family: "Roboto", serif;
+}
+
+.liItem {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+}

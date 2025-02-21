@@ -1,0 +1,84 @@
+.divContainer {
+  padding-bottom: 32px;
+  font-family: "Roboto", serif;
+}
+
+.profileDiv {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 270px;
+  height: 260px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  background-color: #1c1d20;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.nameProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+
+  font-weight: 700;
+}
+
+.tagProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  font-weight: 400;
+  color: #aba9a9;
+}
+
+.locationProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #aba9a9;
+}
+
+.ulProfileList {
+  border-top: 2px solid #6b6b6b;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.liProfileItem {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-right: 2px solid #6b6b6b;
+  background-color: #ccc;
+}
+
+.liProfileItem:last-child {
+  border-right: none;
+}
+
+.spanProfile {
+  display: block;
+  font-weight: 600;
+}
+
+.spanProfileAccent {
+  font-weight: 400;
+}
+
+.spanProfile:first-child {
+  margin-bottom: 5px;
+}
