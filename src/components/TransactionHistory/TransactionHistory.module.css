@@ -1,0 +1,25 @@
+table td,
+table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.tableTaransaction {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.tableHead {
+  color: white;
+  background-color: rgb(35, 30, 30);
+}
+.tableTr:nth-child(2n) {
+  background-color: rgb(210, 210, 210);
+}
+
+.tableText {
+  width: 200px;
+  text-align: center;
+  text-transform: capitalize;
+}

@@ -1,9 +1,9 @@
 import css from "./Profile.module.css";
 export default function Profile({ name, tag, location, image, stats }) {
   return (
-    <div className={css.divContainer}>
+    <section className="section">
       <div className={css.profileDiv}>
-        <div>
+        <div className={css.backGroundCard}>
           <img className={css.imgProfile} src={image} alt="User avatar" />
           <p className={css.nameProfile}>{name}</p>
           <p className={css.tagProfile}>@{tag}</p>
@@ -30,6 +30,6 @@ export default function Profile({ name, tag, location, image, stats }) {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
